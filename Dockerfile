@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.11
 MAINTAINER Marcio Bigolin <marcio.bigolinn@gmail.com>
 LABEL Description="Imagem para compilar projetos do GITLAB"
 
