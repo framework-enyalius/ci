@@ -8,3 +8,4 @@ RUN apk --update add git curl rsync openssh lftp \
           yarn && rm /var/cache/apk/*
           
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
+WORKDIR /app
